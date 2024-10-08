@@ -1,6 +1,5 @@
 # Zoervleis
 Zoervleis is a C# tool to convert hashes into human readable strings.
-This package is heavily inspired on the Python package [humanhash](https://github.com/zacharyvoase/humanhash).
 
 ## Example
 ```csharp
@@ -23,3 +22,7 @@ I am open for suggestions.
 
 ## License
 This project is licensed under the GNU GPLv3 license.
+
+## Attributions
+- This package is heavily inspired on the Python package [humanhash](https://github.com/zacharyvoase/humanhash).
+- [Cauldron icon](assets/Icon.svg) was based off a creation by [Wishforge.games](https://www.wishforge.games/?ref=svgrepo.com) in CC Attribution License via [SVG Repo](https://www.svgrepo.com/)

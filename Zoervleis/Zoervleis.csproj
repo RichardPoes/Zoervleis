@@ -5,7 +5,7 @@
         <LangVersion>latest</LangVersion>
 
         <PackageId>Zoervleis</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>RichardPoes</Authors>
         <Owners>RichardPoes</Owners>
         <RepositoryUrl>https://github.com/RichardPoes/Zoervleis</RepositoryUrl>
@@ -15,9 +15,11 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
         <PackageTags>hash;zoervleis;hashing;human-readable</PackageTags>
+        <PackageIcon>Icon.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
         <None Include="..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\assets\Icon.png" Pack="true" PackagePath="\"/>
     </ItemGroup>
 </Project>
