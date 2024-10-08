@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoervleis", "Zoervleis\Zoervleis.csproj", "{0D965E4A-5C0A-41B1-8FA5-7695FC982FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoervleis.Tests", "Zoervleis.Tests\Zoervleis.Tests.csproj", "{0FAAB9B6-B50E-4CE8-8141-816F6F21EBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoervleis.IntegrationTests", "Zoervleis.IntegrationTests\Zoervleis.IntegrationTests.csproj", "{4A4F1C62-C1A7-4A30-94F0-2F6B974AF8E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D965E4A-5C0A-41B1-8FA5-7695FC982FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D965E4A-5C0A-41B1-8FA5-7695FC982FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D965E4A-5C0A-41B1-8FA5-7695FC982FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D965E4A-5C0A-41B1-8FA5-7695FC982FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAAB9B6-B50E-4CE8-8141-816F6F21EBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAAB9B6-B50E-4CE8-8141-816F6F21EBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAAB9B6-B50E-4CE8-8141-816F6F21EBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAAB9B6-B50E-4CE8-8141-816F6F21EBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4F1C62-C1A7-4A30-94F0-2F6B974AF8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4F1C62-C1A7-4A30-94F0-2F6B974AF8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4F1C62-C1A7-4A30-94F0-2F6B974AF8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4F1C62-C1A7-4A30-94F0-2F6B974AF8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
