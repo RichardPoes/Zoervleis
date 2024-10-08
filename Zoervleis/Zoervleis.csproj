@@ -1,25 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
-        <LangVersion>latest</LangVersion>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
 
-        <PackageId>Zoervleis</PackageId>
-        <Version>1.0.1</Version>
-        <Authors>RichardPoes</Authors>
-        <Owners>RichardPoes</Owners>
-        <RepositoryUrl>https://github.com/RichardPoes/Zoervleis</RepositoryUrl>
-        <PackageProjectUrl>https://www.nuget.org/packages/Zoervleis</PackageProjectUrl>
-        <Product>Zoervleis</Product>
-        <Description>Zoervleis provides functions to create human-readable hashes.</Description>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
-        <PackageTags>hash;zoervleis;hashing;human-readable</PackageTags>
-        <PackageIcon>Icon.png</PackageIcon>
-    </PropertyGroup>
+    <PackageId>Zoervleis</PackageId>
+    <Version>1.1.0</Version>
+    <Authors>RichardPoes</Authors>
+    <Owners>RichardPoes</Owners>
+    <RepositoryUrl>https://github.com/RichardPoes/Zoervleis</RepositoryUrl>
+    <PackageProjectUrl>https://www.nuget.org/packages/Zoervleis</PackageProjectUrl>
+    <Product>Zoervleis</Product>
+    <Description>Zoervleis provides functions to create human-readable hashes.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageTags>hash;zoervleis;hashing;human-readable</PackageTags>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageReleaseNotes>
+      - Added a `Digitizer` class
+      - Multiple exceptions added when function arguments are incorrect
+      - Dependency upped to .NET Standard 2.1 (to use Spans)
+      - Improved examples in `README.md`
+      - New icon color
+    </PackageReleaseNotes>
+  </PropertyGroup>
 
-    <ItemGroup>
-        <None Include="..\README.md" Pack="true" PackagePath="\"/>
-        <None Include="..\assets\Icon.png" Pack="true" PackagePath="\"/>
-    </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\CHANGELOG.md" Pack="true" PackagePath="\"/>
+    <None Include="..\assets\Icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>

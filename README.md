@@ -1,14 +1,28 @@
 # Zoervleis
 Zoervleis is a C# tool to convert hashes into human readable strings.
+If hashes need to be communicated human to human `HumanHash` is advised.
+If hashes need to be communicated human to computer or vice versa, `DigitHash` is advised.
+One extra perk of `DigitHash` is that is more information dense.
 
 ## Example
+We can use `HumanHash` as follows
 ```csharp
-using var alg = SHA256.Create();
-var hash = "Hello World"u8.ToArray();
+    var toHash = "Hello World"u8.ToArray();
+    var hash = SHA256.HashData(toHash);
 
-var humanizedString = HumanHash.Humanize(hash);
+    var humanizedString = HumanHash.Humanize(hash);
 
-Console.WriteLine(humanizedString) // Output will be fix-ink-juliet-juliet-kansas-cardinal
+    Console.WriteLine(humanizedString); // Output will be "orange-monkey-oranges-steak-asparagus-white"
+```
+
+We can use `DigitHash` as follows
+```csharp
+    var toHash = "Hello World"u8.ToArray();
+    var hash = SHA256.HashData(toHash);
+
+    var humanizedString = DigitHash.Digitize(hash);
+
+    Console.WriteLine(humanizedString); // Output will be "11109-73930-84387-59824-87079"
 ```
 
 ## To do:
