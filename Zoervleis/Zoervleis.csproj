@@ -5,7 +5,7 @@
     <LangVersion>latest</LangVersion>
 
     <PackageId>Zoervleis</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Authors>RichardPoes</Authors>
     <Owners>RichardPoes</Owners>
     <RepositoryUrl>https://github.com/RichardPoes/Zoervleis</RepositoryUrl>
@@ -13,21 +13,16 @@
     <Product>Zoervleis</Product>
     <Description>Zoervleis provides functions to create human-readable hashes.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>hash;zoervleis;hashing;human-readable</PackageTags>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReleaseNotes>
-      - Added a `Digitizer` class
-      - Multiple exceptions added when function arguments are incorrect
-      - Dependency upped to .NET Standard 2.1 (to use Spans)
-      - Improved examples in `README.md`
-      - New icon color
+      - Switched to the more permissable MIT license.
     </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="\"/>
-    <None Include="..\CHANGELOG.md" Pack="true" PackagePath="\"/>
     <None Include="..\assets\Icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>

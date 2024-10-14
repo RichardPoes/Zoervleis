@@ -1,4 +1,7 @@
 # Zoervleis
+!["Logo Zoervleis"](https://raw.githubusercontent.com/RichardPoes/Zoervleis/refs/heads/main/assets/Icon.png)
+
+
 Zoervleis is a C# tool to convert hashes into human-readable and human-friendly strings.
 At the moment this is done in one of two ways.
 One can use `HumanHash` to convert a hash into a sequence of words.
@@ -72,7 +75,7 @@ I am open for suggestions.
 - [ ] Support for hashing-and-humanizing in one
 
 ## License
-This project is licensed under the GNU GPLv3 license.
+This project is licensed under the MIT license.
 
 ## Attributions
 - This package is heavily inspired on the Python package [humanhash](https://github.com/zacharyvoase/humanhash).
